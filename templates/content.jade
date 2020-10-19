@@ -1,0 +1,11 @@
+html
+  head
+    title Yunus Emre Köker - Yaşar Üniversitesi
+    include ../parts/head.jade
+  body.h-screen.flex.flex-col
+    include ../parts/header.jade
+    div.w-full.flex.flex-col.relative.flex-grow
+      div.absolute.top-0.bottom-0.bg-yasar.h-16.w-full.z-0
+      div.w-full.px-6.z-10.h-full.pb-6
+        div.w-full.bg-white.rounded-xl.p-5.h-full.shadow-2xl
+          block content

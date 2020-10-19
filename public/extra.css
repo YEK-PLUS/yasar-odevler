@@ -1,0 +1,9 @@
+.bg-yasar {
+  background-color: #00509e;
+}
+.hover\:text-yasar:hover {
+  color: #00509e;
+}
+.text-yasar {
+  color: #00509e;
+}
