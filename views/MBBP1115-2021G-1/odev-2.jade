@@ -1,0 +1,19 @@
+extends ../templates/content.jade
+block content
+  h1(class="text-yasar text-2xl my-3 font-bold") Ödev #2
+  div(class='flex flex-col lg:flex-row')
+    div(class='flex-1')
+      h2(class="text-yasar text-xl my-3 font-bold") Ödev Açıklama
+      ul Derste şu ana kadar görmüş olduğunuz etiketleri ve yöntemleri kullanarak kendinizi tanıtan bir web sayfası projesi hazırlayınız:
+      li Bu ödevde geçen haftaki (3. Haft) ödev için söylenenler geçerlidir. 
+      li Sayfanızda örnekte gördüğünüz gibi farklı klasörlere bağlar yapınız.
+      li Bağlardan en az bir tanesi birden fazla belge indirebileceğiniz şekilde düzenlenmiş olmalıdır.
+      li Ana sayfanızda değişik bölümler arasında bağlar oluşturunuz.
+    div(class="flex-1 grid grid-cols-1 gap-4")
+      a(href="/MBBP1115-2021G-1/odev-1" class="w-full bg-yasar hover:bg-white hover:text-yasar shadow-lg cursor-pointer select-none font-semibold px-5 py-3 transition duration-200 rounded-lg text-white text-bold")
+        p Ödev #1 
+          i.text-sm 19.Eki.2020 12:00	
+      a(href="/" class="w-full bg-yasar hover:bg-white hover:text-yasar shadow-lg cursor-pointer select-none font-semibold px-5 py-3 transition duration-200 rounded-lg text-white text-bold")
+        p Ana Sayfa
+      a(href="/images/odev-2.jpg" download="odev-2.jpg" class="w-full bg-yasar hover:bg-white hover:text-yasar shadow-lg cursor-pointer select-none font-semibold px-5 py-3 transition duration-200 rounded-lg text-white text-bold")
+        p Resim İndir
